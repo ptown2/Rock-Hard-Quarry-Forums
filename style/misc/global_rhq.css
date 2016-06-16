@@ -1,0 +1,708 @@
+/************************/
+/*    GLOBAL RHQ SHIT   */
+/************************/
+textarea {
+	height: 250px;
+}
+
+dd.postavatar {
+	overflow: hidden;
+}
+
+div#google_ads {
+	text-align: center;
+	margin: 12px 0px 12px 0px;
+}
+
+div.login_openid {
+	margin-bottom: 16px;
+	font-size: 16px;
+}
+
+div.banned {
+	font-size: 32px;
+	text-align: center;
+	color: red;
+	margin: 6px 0px 6px 0px;
+}
+
+div.avatar_class {
+	width: 48px;
+	height: 48px;
+
+	float: left;
+	margin: 4px 12px 4px 4px;
+
+	background-position: center;
+	background-size: cover;
+
+	border-radius: 24px;
+	-webkit-border-radius: 24px;
+	-moz-border-radius: 24px;
+
+	box-shadow: 0 0 6px rgba(0, 0, 0, .8);
+	-webkit-box-shadow: 0 0 6px rgba(0, 0, 0, .8);
+	-moz-box-shadow: 0 0 6px rgba(0, 0, 0, .8);
+}
+
+span.display-forum-info {
+	display: block;
+	margin-top: 6px;
+}
+
+img.login_button {
+	display: block;
+
+	width: 168px;
+	height: 28px;
+
+	text-align: center;
+
+	margin-bottom: 8px; 
+}
+
+/*#randumb {
+	position: fixed;
+
+	width: 10000px;
+	height: 10000px;
+
+	top: -4000px;
+	left: -4000px;
+
+	transform-origin: center;
+	-webkit-transform-origin: center;
+	-ms-transform-origin: center;
+
+	background-image: url('img/randumb/greatbanner.png');
+
+	overflow: hidden;
+	z-index: -10000;
+}*/
+
+.tagline {
+	position: relative;
+	width: 75%;
+	height: 1px;
+	top: -12px;
+	left: 120px;
+
+	font-size: 16px;
+	font-weight: bold;
+
+	transform:rotate(-10deg);
+	-ms-transform:rotate(-10deg);
+	-webkit-transform:rotate(-10deg);
+
+	white-space: nowrap;
+	overflow: inherit;
+}
+
+.pun .box {
+	box-shadow: 5px 5px 2.5px black;
+	-ms-box-shadow: 5px 5px 2.5px black;
+	-webkit-box-shadow: 5px 5px 2.5px black;
+}
+
+.pun .postleft, .pun .postfootleft {
+	float: left;
+	width: 214px !important;
+	position: relative;
+	overflow: hidden;
+}
+
+.pun .postright, .pun .postfootright {
+	border-left-width: 214px !important;
+	border-left-style: solid
+}
+
+.pun .postright {
+	padding: 0 8px !important;
+}
+
+.pun .postsignature {
+	height: 250px;
+	overflow-y: auto;
+}
+
+.pun .postmsg hr {
+	margin-left: 0px;
+	width: 200px;
+	text-align: left;
+	height: 1px;
+	border: none;
+}
+
+#punindex .blocktable, .pun .blockpost {
+	margin-bottom: 16px;
+
+	box-shadow: 5px 5px 2.5px black;
+	-ms-box-shadow: 5px 5px 2.5px black;
+	-webkit-box-shadow: 5px 5px 2.5px black;
+}
+
+/* Geocities */
+/*
+* {
+	background-color: none;
+	background-image: none;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 15px;
+	color: #000000;
+}
+a:link {
+	color: #000066;
+}
+
+body {
+	background-color: #FFFF00;
+	background-image: url(images/bg/circuitboard.jpg);
+	font-family: Comic Sans MS,Comic Sans;
+	font-size: 14px;
+	color: #000000;
+}
+
+p {
+	background-color: #00FF00;
+	color: #FFFFFF;
+	background-image: none;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 20px;
+}
+
+li {
+	list-style-image: url(images/Cube.gif);
+}
+*/
+
+/************************/
+/*   CHRISTMAS LIGHTS   */
+/************************/
+#lights {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 32px;
+	overflow: visible;
+}
+
+.xlsf-light {
+	position: absolute;
+}
+
+body.fast .xlsf-light {
+	opacity: 0.9;
+}
+
+.xlsf-fragment {
+	position: absolute;
+
+	width: 50px;
+	height: 50px;
+
+	background: transparent url(../../include/christmas/lights/image/bulbs-50x50-fragments.png) no-repeat 0px 0px;
+}
+
+.xlsf-fragment-box {
+	position: absolute;
+
+	left: 0px;
+	top: 0px;
+
+	width: 50px;
+	height: 50px;
+
+	*width: 100%;
+	*height: 100%;
+
+	display: none;
+}
+
+.xlsf-cover {
+	position: fixed;
+
+	left: 0px;
+	top: 0px;
+
+	width: 100%;
+	height: 100%;
+
+	background: #fff;
+	opacity: 1;
+
+	z-index: 999;
+	display: none;
+}
+
+/*
+.xlsf-light.bottom {
+ height:49px;
+ border-bottom:1px solid #006600;
+}
+
+.xlsf-light.top {
+ height:49px;
+ border-top:1px solid #009900;
+}
+*/
+
+/************************/
+/*  qTIP CSS EXTENSION  */
+/************************/
+div#qTip {
+	padding: 3px;
+	border: 1px solid #666;
+	border-right-width: 2px;
+	border-bottom-width: 2px;
+	display: none;
+	background: #999;
+	color: #FFF;
+	font: bold 9px Verdana, Arial, sans-serif;
+	text-align: left;
+	position: absolute;
+	z-index: 1000;
+}
+
+.fulljustify {
+  text-align: justify;
+}
+
+.fulljustify:after {
+  content: "";
+  display: inline-block;
+  width: 100%;
+}
+
+.flipleft {
+        -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+}
+
+
+/***************************************/
+/* MOD MODERN BB-CODE STYLE INDICATORS */
+/***************************************/
+
+/********************************************************************/
+/* MOD MODERN BBCODE: OVERRIDES FOR STANDARD PUNBB STYLE INDICATORS */
+/********************************************************************/
+DIV.txtarea label {
+	padding: 0;
+	margin: 0; 
+}
+
+DIV.txtarea textarea {
+	border: 1px; 
+	padding: 1px;
+}
+
+DIV.txtarea input.longinput {
+	border: 1px; 
+	padding: 2px 1px;
+	margin-bottom: 5px;
+}
+
+DIV.txtarea {
+	min-width: 650px;
+	width: 80%;
+}
+
+#smileyblock {
+	width: 70%;
+}
+
+#smileyblock #smileybox {
+	margin: 0;
+	padding: 0;
+}
+
+#smileyblock .tcl, #smileyblock .tcr {
+	text-align: center;
+	width: 50%;
+}
+
+/****************************************************************/
+/* MOD MODERN BBCODE: TOOLBAR AND TOOLBUTTON STYLE INDICATORS */
+/****************************************************************/
+DIV.toolbar {
+	height: 2em;
+	margin-right: 5px;
+	width: 100%;
+	padding: 3px 1px;
+}
+
+DIV.toolbar .draghandle {
+	float: left;
+	width: 4px;
+	height: 2em;
+	margin-left: 3px;
+}
+
+DIV.toolbar .separator {
+	float: left;
+	width: 1px;
+	height: 2em;
+	margin:0 3px;
+	padding: 0;
+}
+
+DIV.toolbar a.tool_btn, DIV.toolbar a.dropdown, DIV.toolbar a.dropdown_opened {
+	float: left;
+	padding: 3px 7px;
+	margin: 0 2px 0 0;
+	text-decoration: none;
+	text-transform: uppercase;
+	display: block;
+}
+
+DIV.toolbar #bold {
+	font-weight: bold;
+}
+
+DIV.toolbar #italic {
+	font-style: italic;
+}
+
+DIV.toolbar #underline {
+	text-decoration: underline;
+}
+
+DIV.toolbar #strikeout {
+	text-decoration: line-through;
+}
+
+DIV.toolbar a.dropdown {
+	outline: none;
+	padding-right: 20px;
+}
+
+DIV.toolbar a.dropdown_opened {
+	outline: none;
+	overflow: hidden;
+	padding-right: 20px;
+}
+
+DIV.toolbar a.dropdown:hover {
+	outline: none;
+}
+
+DIV.toolbar #inctxt, DIV.toolbar #dectxt, DIV.toolbar #help {
+	float: right;
+	margin-right: 4px;
+	outline: none;
+}
+
+/****************************************************************/
+/* MOD MODERN BBCODE: POPUP PALETTE INDICATORS */
+/****************************************************************/
+/* 0. Common popup panel indicators */
+#colorpalette #colorbtn, #smilespanel #smilesbtn, #sizepanel #sizebtn, #imgpanel #imgbtn, #listpanel #listbtn {
+	float: left;
+	clear: right;
+	height: 4px;
+	padding: 0px 7px 0px 7px;
+	margin: 0;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-bottom: 0;
+	border-top: 0;
+	margin-bottom: -1px;
+	outline: none;
+	padding-right: 20px;
+}
+
+#colorpalette, #smilespanel, #sizepanel, #imgpanel, #listpanel {
+	position: absolute;
+	display: none;
+}
+
+#colorpalette #colorcontent, #smilespanel #smilescontent, #sizepanel #sizecontent, #imgpanel #imgcontent, #listpanel #listcontent {
+	padding: 1px;
+}
+
+.popupcontent_ie {
+	float: left;
+}
+
+/* 1. Smileys popup panel indicators */
+#smilespanel {
+	width: 90px;
+}
+
+#smilespanel #adv {
+	float: left;
+	width: 100%;
+	text-align: center;
+	padding: 1px 0 5px 0;
+}
+
+#smilespanel #adv a {
+	border: 0;
+	background-color: inherit;
+	float: none;
+}
+
+#smilespanel a {
+	padding: 0;
+	margin: 0;
+}
+
+#smilespanel a img {
+	padding: 2px 3px;
+}
+
+/* 2. Colors popup panel indicators */
+#colorpalette {
+	width: 125px;
+}
+
+
+#colorpalette #colorcontent {
+	padding: 2px 1px 1px 2px;
+}
+
+#colorpalette #colorcontent a {
+	float: left;
+	width: 12px;
+	height: 12px;
+	margin: 0 1px 1px 0;
+	padding: 0;
+}
+
+/* 2. Font-sizes, Images and Lists popup panel indicators */
+#sizepanel, #listpanel {
+	width: 12em;
+}
+
+#imgpanel {
+	width: 15em;
+}
+
+#sizepanel #sizecontent a, #imgpanel #imgcontent a, #listpanel #listcontent a {
+	float: left;
+	clear: left;
+	width: 95%;
+	margin: 0;
+	padding: 2px 2px;
+	display: block;
+	text-decoration: none;
+}
+
+#imgpanel #imgcontent a {
+	width: 96%;	
+}
+
+#sizepanel #sizecontent a:hover, #imgpanel #imgcontent a:hover, #listpanel #listcontent a:hover  {
+	padding: 2px 2px;
+	
+}
+
+/*******************************************************/
+/* MOD MODERN BBCODE: COLORPALETTE INDICATORS (COLORS) */
+/*******************************************************/
+#colorblack {background: #000;}
+#colorbrown {background: #930;}
+#colorolive {background: #330;}
+#colordarkgreen {background: #030;}
+#colordarkteal {background: #036;}
+#colordarkblue {background: #000080;}
+#colorindigo {background: #339;}
+#colorgray80 {background: #333;}
+#colordarkred {background: #800000;}
+#colororange {background: #F60;}
+#colordarkyellow {background: #808000;}
+#colorgreen {background: #008000;}
+#colorteal {background: #008080;}
+#colorblue {background: #00F;}
+#colorbluegray {background: #669;}
+#colorgray50 {background: #808080;}
+#colorred {background: #F00;}
+#colorlightorange {background: #F90;}
+#colorlime {background: #9C0;}
+#colorseagreen {background: #396;}
+#coloraqua {background: #3CC;}
+#colorlightblue {background: #36F;}
+#colorviolet {background: #800080;}
+#colorgray40 {background: #969696;}
+#colorpink {background: #F0F;}
+#colorgold {background: #FC0;}
+#coloryellow {background: #FF0;}
+#colorbrightgreen {background: #00FF00;}
+#colorturquoise {background: #0FF;}
+#colorskyblue {background: #0CF;}
+#colorplum {background: #936;}
+#colorgray25 {background: #C0C0C0;}
+#colorrose {background: #F9C;}
+#colortan {background: #FC9;}
+#colorlightyellow {background: #FF9;}
+#colorlightgreen {background: #CFC;}
+#colorlightturquoise {background: #CFF;}
+#colorpaleblue {background: #9CF;}
+#colorlavender {background: #C9F;}
+#colorwhite {background: #FFF;}
+
+/****************************************************************/
+/* MOD MODERN BBCODE: ADDITIONAL BBCODE INDICATORS */
+/****************************************************************/
+p.center {
+	text-align: center;
+}
+
+p.right {
+	text-align: right;
+}
+
+span.bbs {
+	text-decoration: line-through;	
+}
+
+code {
+	font-family: "Courier New";
+	font-size: 110%;
+}
+
+div.postmsg ol, div.postmsg ul {
+	padding: 5px;
+}
+
+div.postmsg li {
+	margin-left: 30px;
+	padding: 2px;
+}
+
+div.postmsg ol li {
+	list-style-type: decimal;
+}
+
+div.postmsg ul li {
+	list-style-type: square;
+}
+
+/****************************************************************/
+/* MOD MODERN BBCODE: OVERRIDES FOR STANDART PUNBB STYLE INDICATORS */
+/****************************************************************/
+#post textarea, #post input.longinput, #edit textarea, #edit input.longinput {
+	border: 1px #565656 solid; 
+}
+
+/****************************************************************/
+/* MOD MODERN BBCODE: TOOLBAR AND TOOLBUTTON STYLE INDICATORS */
+/****************************************************************/
+DIV.toolbar {
+	background: #424242;
+	border-left: 1px #565656 solid;
+	border-top: 1px #565656 solid;
+	border-right: 1px #565656 solid;
+}
+
+DIV.toolbar .draghandle {
+	border-left: 2px #767676 dotted;
+}
+
+DIV.toolbar .separator {
+	border-left: 1px #767676 solid;
+}
+
+DIV.toolbar a.tool_btn, DIV.toolbar a.dropdown, DIV.toolbar a.dropdown_opened {
+	border: 1px #4A4A4A solid;
+	background: #424242;
+	color: #A4A4A4;
+}
+
+DIV.toolbar a.tool_btn:visited, DIV.toolbar a.dropdown:visited, DIV.toolbar a.dropdown_opened:visited {
+	color: #A4A4A4;
+}
+
+DIV.toolbar a.tool_btn:hover, DIV.toolbar a.dropdown:hover {
+	border: 1px #60C860 solid;
+	color: #60C860;	
+	background: #383838;
+}
+
+DIV.toolbar a.dropdown {
+	color: #A4A4A4;
+	background: url(/../../img/modern_bbcode/cobalt_arrow.png) no-repeat top right;
+}
+
+DIV.toolbar a.dropdown_opened, DIV.toolbar a.dropdown_opened:hover, DIV.toolbar a.dropdown_opened:visited {
+	color: #A4A4A4;
+	border: 1px #565656 solid;
+	background: #383838 url(/../../img/modern_bbcode/cobalt_arrow_opened.png) no-repeat top right;
+}
+
+DIV.toolbar a.dropdown:hover {
+	background: #383838 url(/../../img/modern_bbcode/radium_arrow_hover.png) no-repeat top right;
+}
+
+/****************************************************************/
+/* MOD MODERN BBCODE: POPUP PALETTE INDICATORS */
+/****************************************************************/
+/* 0. Common popup panel indicators */
+#colorpalette #colorbtn, #smilespanel #smilesbtn, #sizepanel #sizebtn, #imgpanel #imgbtn, #listpanel #listbtn {
+	border-left: 1px #565656 solid;
+	border-right: 1px #565656 solid;
+	color: #383838;
+	background: #383838;
+}
+
+#colorpalette #colorcontent, #smilespanel #smilescontent, #sizepanel #sizecontent, #imgpanel #imgcontent, #listpanel #listcontent {
+	border: 1px #565656 solid; 
+	background: #383838;
+}
+
+/* 2. Colors popup panel indicators */
+#colorpalette #colorcontent a {
+	border: 1px #565656 solid;
+}
+
+#colorpalette #colorcontent a:hover {
+	border: 1px #60C860 solid;
+}
+
+/* 3. Font-sizes, Images and Lists popup panel indicators */
+#sizepanel #sizecontent a, #imgpanel #imgcontent a, #listpanel #listcontent a {
+	border: 1px solid #3F3F3F;
+	color: #A4A4A4;
+	background: #3F3F3F;
+}
+
+#sizepanel #sizecontent a:hover, #imgpanel #imgcontent a:hover, #listpanel #listcontent a:hover  {
+	border: 1px #60C860 solid;
+	color: #60C860;	
+	background: #383838;	
+}
+
+/****************************************************************/
+/* MOD MODERN BBCODE: ADDITIONAL BBCODE INDICATORS */
+/****************************************************************/
+code {
+	color: #80EE80;
+}
+
+div.postmsg li {
+	color: #999;
+}
+
+DIV.spoilerbox p {
+	color: #353533;
+}
+
+DIV.spoilerbox p:hover {
+	color: #A4A4A4;
+}
+
+IMG.postimg {
+	padding: 1px;
+	margin: 2px 5px;
+	border: 1px solid #565656;
+	background: #353533;
+}
+
+DIV.postmsg a:hover IMG.postimg {
+	border: 1px solid #80EE80;
+}
