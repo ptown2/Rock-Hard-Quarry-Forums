@@ -1,0 +1,2 @@
+[26-Jan-2014 17:31:54 UTC] PHP Warning:  file_get_contents(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/rockhar/public_html/mumbleChannelViewer/mumbleChannelViewer.php on line 45
+[26-Jan-2014 17:31:54 UTC] PHP Warning:  file_get_contents(http://json/serverId=1): failed to open stream: php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/rockhar/public_html/mumbleChannelViewer/mumbleChannelViewer.php on line 45

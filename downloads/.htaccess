@@ -1,0 +1,4 @@
+Options +FollowSymlinks
+RewriteEngine off
+RewriteCond %{HTTP_REFERER} !^http://(www\.)?rockhardquarry.net(/)download.*$     [NC]
+RewriteRule .*\.(exe|zip|7zp|pdf|txt|doc|docx)$ http://rockhardquarry.net/ [R,NC]

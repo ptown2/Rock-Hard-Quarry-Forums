@@ -1,0 +1,10 @@
+User-Agent: *
+Disallow: 
+Allow: /index.php
+Allow: /donate.php
+Allow: /mumble.php
+Allow: /banlist.php
+Allow: /userlist.php
+Allow: /misc.php?action=rules
+
+Sitemap: http://rockhardquarry.net/sitemap.xml

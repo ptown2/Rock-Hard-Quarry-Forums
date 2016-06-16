@@ -1,0 +1,70 @@
+/* Mumble Design */
+#mumbleViewer {
+	padding: 8px 14px 12px 0px;
+}
+
+#mumbleViewer ul {
+	list-style-type: none;
+}
+
+#mumbleViewer ul, ul ul {
+	margin: 0 0 0 8px;
+	padding: 0 0 0 8px;
+}
+
+#mumbleViewer li {
+	padding-top: 3px;
+}
+
+#mumbleViewer img {
+	float: left;
+}
+
+
+/* Channel URLS */
+#mumbleViewer a, #mumbleViewer span {
+	display: block;
+	height: 15px;
+
+	padding-left: 5px;
+
+	overflow: hidden;
+}
+
+#mumbleViewer a, #mumbleViewer a:visited {
+	color: #000;
+	text-decoration: none;
+}
+
+#mumbleViewer a:hover {
+	text-decoration: underline;
+}
+
+
+/* User Info */
+#mumbleViewer span.mumbleChannelViewer-user {
+	color: #000;
+
+	float: none;
+}
+
+#mumbleViewer span.mumbleChannelViewer-statusIcon {
+	float: right;
+}
+
+#mumbleViewer span.mumbleChannelViewer-statusIcon img {
+	margin-left: 6px;
+}
+
+
+/* Error Icon */
+div.mumbleChannelViewer-error {
+	background: #ffc url("images/exclamation.png") no-repeat 4px 5px;
+
+	color: #000;
+
+	border: 1px solid #f90;
+
+	margin: 20px 10px;
+	padding: 5px 5px 5px 25px;
+}

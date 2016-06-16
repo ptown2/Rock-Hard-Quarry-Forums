@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<url>
+		<loc>http://rockhardquarry.net/index.php</loc>
+		<lastmod>2014-07-29T06:19:31+00:00</lastmod>
+		<changefreq>daily</changefreq>
+		<priority>1.00</priority>
+	</url>
+	<url>
+		<loc>http://rockhardquarry.net/donate.php</loc>
+		<lastmod>2014-07-29T06:19:34+00:00</lastmod>
+		<changefreq>daily</changefreq>
+		<priority>0.80</priority>
+	</url>
+	<url>
+		<loc>http://rockhardquarry.net/mumble.php</loc>
+		<lastmod>2014-07-29T06:19:34+00:00</lastmod>
+		<changefreq>daily</changefreq>
+		<priority>0.50</priority>
+	</url>
+	<url>
+		<loc>http://rockhardquarry.net/banlist.php</loc>
+		<lastmod>2014-07-29T06:19:34+00:00</lastmod>
+		<changefreq>daily</changefreq>
+		<priority>0.50</priority>
+	</url>
+	<url>
+		<loc>http://rockhardquarry.net/userlist.php</loc>
+		<lastmod>2014-07-29T06:19:34+00:00</lastmod>
+		<changefreq>daily</changefreq>
+		<priority>0.50</priority>
+	</url>
+	<url>
+		<loc>http://rockhardquarry.net/misc.php?action=rules</loc>
+		<lastmod>2014-07-29T06:19:34+00:00</lastmod>
+		<changefreq>daily</changefreq>
+		<priority>0.50</priority>
+	</url>
+</urlset>
