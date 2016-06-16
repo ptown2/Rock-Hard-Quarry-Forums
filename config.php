@@ -2,9 +2,9 @@
 
 $db_type = 'mysqli';
 $db_host = 'localhost';
-$db_name = 'rhq_forum';
-$db_username = 'ptown2';
-$db_password = 'a43sdf7gasdf';
+$db_name = 'xxxxxxxxx';
+$db_username = 'xxxxxx';
+$db_password = 'xxxxxxxxxxxx';
 $db_prefix = 'flux_';
 $p_connect = false;
 
